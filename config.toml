@@ -21,3 +21,9 @@ copyright = "© 2015 Copyright Text"
 
 [permalinks]
   post = "/:year/:month/:day/:title/" # optional
+
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
