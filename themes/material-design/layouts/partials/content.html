@@ -7,7 +7,7 @@
   {{ end }}
   <div class="col m4 s12">
     <div class="card-panel">
-      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+      <h4><a target="_blank" href="{{ .Permalink }}">{{ .Title }}</a></h4>
       <p>
       {{if .Params.categories }}
         {{ range $index, $category := .Params.categories }}
