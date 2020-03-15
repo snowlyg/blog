@@ -5,6 +5,6 @@ categories : [ "Golang" ]
 series : [ "Golang" ]
 project_url : "https://blog.snowlyg.com"
 date: {{ .Date }}
-draft: true
+draft: false
 ---
 

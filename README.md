@@ -8,5 +8,5 @@
   hugo server -t material-design  -D
 
   # 部署
-  hugo -t material-design -b "http://coderzh.github.io/"
+  hugo  -b "http://coderzh.github.io/"
 ```
