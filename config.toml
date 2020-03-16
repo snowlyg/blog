@@ -7,7 +7,7 @@ MetaDataFormat = "toml"
 Paginate = 6 # To specify a multiple of 3
 disqusShortname = "sonwlyg" # optional
 Copyright = 'Copyright © snowlyg 2020'
-SummaryLength = 7
+SummaryLength = 1
 
 [params]
   description = "不会偷懒的程序员不是个好程序员" # optional

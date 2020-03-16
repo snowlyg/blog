@@ -16,7 +16,8 @@
           {{end}}
           </p>
           <p>{{ .Content }}</p>
-          <p>{{ .Date.Format "2 Jan 2006" }}
+          <p>
+            {{ .Date.Format "2006-01-02" }}&nbsp;
             {{if .Params.tags }}
               {{ range $index, $tag := .Params.tags }}
                 <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>

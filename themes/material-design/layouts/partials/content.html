@@ -11,14 +11,14 @@
             <p>
                 {{if .Params.categories }}
                     {{ range $index, $category := .Params.categories }}
-                        <a href="{{$baseurl}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
+                        <a href="{{$baseurl}}/categories/{{ $category | urlize }}/"> {{ $category }} | </a>
                     {{ end }}
                 {{end}}
             </p>
             <p>{{ .Summary }}</p>
             <p>
-                {{ .Date.Format "2 Jan 2006" }}
-                &nbsp;
+                {{ .Date.Format "2006-01-02" }}
+                &nbsp;&nbsp;
                 {{if .Params.tags }}
                     {{ range $index, $tag := .Params.tags }}
                         <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
