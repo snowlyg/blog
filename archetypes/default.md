@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-tags : [ "Iris", "Go", "API"]
-categories : [ "Golang" ]
-series : [ "Golang" ]
+tags : [ ]
+categories : []
+series : [  ]
 project_url : "https://blog.snowlyg.com"
 date: {{ .Date }}
 draft: false
