@@ -5,7 +5,7 @@ LanguageCode = "zh-CN"
 Title = "生活中的难过"
 MetaDataFormat = "toml"
 Paginate = 6 # To specify a multiple of 3
-disqusShortname = "sonwlyg" # optional
+#disqusShortname = "snowlyg-com" # optional
 Copyright = 'Copyright © snowlyg 2020'
 SummaryLength = 1
 

@@ -21,7 +21,7 @@
 ##### 启动项目
 ```shell script
   # 开发
-  hugo server -t material-design  -D
+  hugo server   -D
 
   # 部署
   hugo  -b "http://coderzh.github.io/"
