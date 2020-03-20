@@ -1,11 +1,17 @@
-<div id="SOHUCS" sid="cyuKhnbuB"></div>
+<div id="SOHUCS" sid="{{ .Permalink }}"></div>
 <script type="text/javascript">
     (function () {
         var appid = 'cyuKhnbuB';
-        var conf = 'prod_68d4c46984c25966ac521e00a2a845c7';
+        var conf = '82f76f45466432b8c21efe595cdcd670';
         var width = window.innerWidth || document.documentElement.clientWidth;
         if (width < 960) {
-            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+            var head = document.getElementsByTagName('head')[0] || document.head || document.documentElement;
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.charset = 'utf-8';
+            script.id = 'changyan_mobile_js';
+            script.src = 'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+            head.appendChild(script);
         } else {
             var loadJs = function (d, a) {
                 var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
@@ -28,7 +34,7 @@
                 }
                 c.appendChild(b)
             };
-            loadJs("http://cy-cdn.kuaizhan.com/upload/changyan.js", function () {
+            loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js", function () {
                 window.changyan.api.config({appid: appid, conf: conf})
             });
         }
