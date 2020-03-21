@@ -3,12 +3,11 @@ BaseURL = "localhost"
 LanguageCode = "zh-CN"
 Title = "生活中的难过"
 # Enter your tracking code to enable Google Analytics
-
+googleAnalytics = "UA-160743058-1"
 # Disable comments by leaving disqusShortname empty
-disqusShortname = ""
+disqusShortname = "snowlyg-com"
 
 [params]
-    googleAnalyticsUserID = "UA-160743058-1"
 	name = "Snowlyg"
 	description = "不会偷懒的程序员--不是个好程序员"
 	bio = "不会偷懒的程序员--不是个好程序员"
@@ -47,10 +46,10 @@ disqusShortname = ""
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/ld_snowlyg"
-#    facebook = "https://www.facebook.com/"
-    github   = "https://www.github.com/snowlyg"
-#    dribble  = "https://www.dribbble.com/"
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
 
 [taxonomies]
 tag = "tags"
