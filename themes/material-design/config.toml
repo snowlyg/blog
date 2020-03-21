@@ -1,0 +1,31 @@
+Author="sonwlyg"
+Theme="material-design"
+BaseURL = "localhost"
+LanguageCode = "zh-CN"
+Title = "生活中的难过"
+MetaDataFormat = "toml"
+Paginate = 6 # To specify a multiple of 3
+#disqusShortname = "snowlyg-com" # optional
+Copyright = 'Copyright © snowlyg 2020'
+SummaryLength = 1
+
+[params]
+  description = "不会偷懒的程序员--不是个好程序员" # optional
+  twitter = "ld_snowlyg" # optional
+  author = "snowlyg"
+  github = "snowlyg" # optional
+  #facebook = "Your facebook Name" # optional
+  #gplus = "Your Google+ profile name" # optional
+  linkedin = "丹-罗-3704a21a4" # optional
+  headerCover = "images/headerCover.jpg" # optional
+#  footerCover = "images/footerCover.jpg" # optional
+  googleAnalyticsUserID = "UA-160743058-1" # optional
+
+[permalinks]
+  post = "/:year/:month/:day/:title/" # optional
+
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"

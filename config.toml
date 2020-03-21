@@ -1,29 +1,56 @@
-Author="sonwlyg"
-Theme="material-design"
+theme = "hugo-cactus-theme"
 BaseURL = "localhost"
 LanguageCode = "zh-CN"
 Title = "生活中的难过"
-MetaDataFormat = "toml"
-Paginate = 6 # To specify a multiple of 3
-#disqusShortname = "snowlyg-com" # optional
-Copyright = 'Copyright © snowlyg 2020'
-SummaryLength = 1
+# Enter your tracking code to enable Google Analytics
+
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
 
 [params]
-  description = "不会偷懒的程序员--不是个好程序员" # optional
-  twitter = "ld_snowlyg" # optional
-  author = "snowlyg"
-  github = "snowlyg" # optional
-  #facebook = "Your facebook Name" # optional
-  #gplus = "Your Google+ profile name" # optional
-  linkedin = "丹-罗-3704a21a4" # optional
-  headerCover = "images/headerCover.jpg" # optional
-#  footerCover = "images/footerCover.jpg" # optional
-  googleAnalyticsUserID = "UA-160743058-1" # optional
+    googleAnalyticsUserID = "UA-160743058-1"
+	name = "Snowlyg"
+	description = "不会偷懒的程序员--不是个好程序员"
+	bio = "不会偷懒的程序员--不是个好程序员"
+	# Enter optionally your twitter account
+	twitter = "ld_snowlyg"
+	enableRSS = false
 
-[permalinks]
-  post = "/:year/:month/:day/:title/" # optional
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
 
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = "首页"
+	subscribe = "订阅"
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = "热文推荐"
+	copyright = "© Copyright snowlyg 2020 "
+	# Sharing options and author information in posts
+	aboutAuthor = "一个纯粹的程序爱好者"
+	tweet = ""
+	share = "分享"
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "empty"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/ld_snowlyg"
+#    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/snowlyg"
+#    dribble  = "https://www.dribbble.com/"
 
 [taxonomies]
 tag = "tags"
